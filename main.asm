@@ -1,8 +1,6 @@
 section .data
 	msg:db "Hello, world!", 0xA
 	len equ $-msg
-section .bss
-	buf resb 255
 section .text
 	global _start
 _start:
